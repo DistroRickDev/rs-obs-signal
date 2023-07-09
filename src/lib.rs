@@ -35,9 +35,7 @@ macro_rules! notify{
 #[cfg(test)]
 mod ut_signal {
     use super::Signal;
-    struct Observer{
-        observer_id: i64,     
-    }
+    struct Observer;
     
     struct Actor{
         actor_id: i64,
@@ -61,9 +59,7 @@ mod ut_signal {
     
     #[test]
     fn test_signal_two_objects(){
-        let observer  = Observer{
-            observer_id : 0
-        };
+        let observer  = Observer{};
         let mut actor = Actor{
             actor_id: 42,
             signal: Signal::new()
