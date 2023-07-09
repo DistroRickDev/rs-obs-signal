@@ -1,4 +1,4 @@
-//! This crate implements part of the [observer pattern] (https://refactoring.guru/design-patterns/observer) 
+//! This crate implements part of the [observer pattern] <https://refactoring.guru/design-patterns/observer> 
 //! with variadic template arguments
 //!
 //! It uses rust macros and generics in order to create a `Signal` object, 
