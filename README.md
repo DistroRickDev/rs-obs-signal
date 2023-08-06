@@ -42,7 +42,7 @@ fn main() {
 
 ## Author
 
-[@RetroRick](https://github.com/RetroRick)
+[@DistroRickDev](https://github.com/DistroRickDev)
 
 ## License
 
