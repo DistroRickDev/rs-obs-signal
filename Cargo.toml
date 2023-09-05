@@ -1,13 +1,13 @@
 [package]
-authors = ["RetroRick"]
+authors = ["DistroRickDev"]
 description = "A simple implementation of the observer pattern with variadic template arguments"
 edition = "2021"
 license = "MIT"
 keywords = ["design-patterns"]
 name = "rs-obs-signal"
 readme = "README.md"
-repository = "https://github.com/RetroRick/rust-signal"
-version = "0.5.0"
+repository = "https://github.com/DistroRickDev/rs-obs-signal"
+version = "0.6.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
