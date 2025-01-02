@@ -35,5 +35,16 @@ mod ut_signal {
         assert_eq!(true, actor.signal.subscription.is_some());
         actor.notify(&observer);
     }
-    
+
+    #[test]
+    fn test_signal_unsubscribe() {
+        let mut actor = Actor{
+            actor_id: 42,
+            signal: Signal::new()
+        };
+        actor.subscribe_to_observer();
+        assert_eq!(true, actor.signal.subscription.is_some());
+        actor.signal.unsubscribe();
+        assert_eq!(true, actor.signal.subscription.is_none());
+    }
 }

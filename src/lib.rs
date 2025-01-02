@@ -19,11 +19,16 @@ impl <T> Signal<T>{
             subscription: None
         }
     }
-    /// Metohd responsible to store function/method into the contained subscription
+    /// Method responsible to store function/method into the contained subscription
     pub fn subscribe(&mut self, subscription: T){
         self.subscription = Some(subscription)
     }
 
+    /// Method responsible to reset subscription
+    pub fn unsubscribe(&mut self)
+    {
+        self.subscription = None;
+    }
 }
 
 #[macro_export]
